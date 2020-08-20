@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="img/logo/speakman-icon.png" />
+
+<title>Speakman Consulting</title>
+<link type="text/css" rel="stylesheet" href="https://neighborhood.org/localsite/css/base.css" />
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/d3.v5.min.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/jquery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/localsite.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/showdown.min.js"></script>
+<script type="text/javascript" src="https://neighborhood.org/localsite/js/navigation.js"></script>
+
+<!-- neighborhood consulting-team -->
+
+<script>
+    param.titleArray = ["speak","man"]
+    param.startTitle = "Speakman Consulting"
+	param.headerLogo = "<img src='img/logo/speakman-icon.png' style='width:28px'>";
+    param.headerFile = "header.html"
+    param.footer = "footer.html"
+    
+    $(window).scroll(function(){$(".herocenter").css("opacity", 1 - $(window).scrollTop() / 200);});
+</script>
+
+<style>
+
+.bgimg { background-position: 0 0px; }
+
+.text-flow {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    padding:15px 20px 15px 20px;
+    background-color: rgba(33,33,33,.85);
+}
+.fade-in {
+  animation: fadeIn ease 4s;
+}
+@keyframes fadeIn {
+    0% {
+    opacity:0;
+    }
+    100% {
+    opacity:1;
+    }
+}
+.bgimg-notfixed {
+    background-attachment: scroll;
+}
+#play-button {
+    opacity: .8;
+    cursor: pointer;
+}
+#play-buttonX:hover {
+    opacity: 1
+}
+.storybox {
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    height: 420px;
+    width: 420px;
+    background-color: rgba(35, 35, 35, .85);
+    padding: 60px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color:#fff;
+    line-height: 2.6em;
+    font-size: 16px;
+}
+@media (max-width: 1400px) {
+  .storybox {display:none;}
+}
+</style>
+</head>
+
+<body>
+<div style="background:#fff; min-height:150px; width:100%; position: relative">
+    
+    <!-- logo centered -->
+    <div class="herocenter" style="position: absolute; z-index:2; top:37%">
+
+        <div class="fade-in text-flowX" style="position:fixed; left:0px; right:0px; 
+        text-align:center; margin-top:50px; color:#fff; font-size:24px; text-shadow: 2px 2px 8px #333;">
+            <span style="font-weight:800; opacity:1">your</span> consulting team
+
+            <!--
+            <br><br>
+            <div id="play-button" style="font-size: 48px; margin-left:2px"><a href="#mission">
+            ▶️</a>
+            </div>
+            -->
+        </div>
+
+
+    </div>
+
+    <!--
+        Krishna Blue https://youtu.be/MTn-PirxH1s?t=261 
+
+        When the house arrives, the green light is on, which is, a good sign.
+    -->
+
+    <!--
+    
+    -->
+
+    <div class="lazy bgimg bgimg-notfixed" data-src="img/hero/woman-table-computer.jpg" style="opacity:.85">
+        <img src="img/hero/woman-table-computer.jpg" style="opacity:0;width:100%">
+    </div>
+
+    <div class="storybox hideMobile local" style="display:none">
+           Welcome
+
+    </div>
+</div>
+
+<a name="mission"></a>
+
+<div class="content contentpadding">
+
+<div class="pageColumns" style="display:none">
+
+    <div class="pageColumn">
+      <div class="pageColumnInside">
+          <h2>Who We Are</h2>
+          Replaces “About”
+      </div>
+    </div>
+
+    <div class="pageColumn">
+      <div class="pageColumnInside">
+
+        <h2>What We Do</h2>
+        How We Help Nonprofits<br>
+        Replaces “Services”
+        
+      </div>
+    </div>
+
+
+
+    <div class="pageColumn">
+      <div class="pageColumnInside">
+
+        <h2>Our Clients</h2>
+        We Work With...
+        
+      </div>
+    </div>
+
+</div>
+
+<!--  
+# Resources & Tools
+      
+We'll be adding PDFs of presentations and worksheets tools.  
+Coming soon: Option for providing contact info to receive report
+
+
+## About - Our mission and vision
+-->
+
+<h1>Our Mission</h1>
+
+Speakman Management Consulting provides Atlanta’s nonprofit community with robust strategic planning, mergers/acquisition facilitation, leadership development and strategic partnership consulting.  Building on the foundation our foundation as mediators with expertise in finance and business planning, our approach to consulting is rooted in navigating surface-level and underlying challenges for nonprofits while tapping organizational and leadership strengths to facilitate a thorough planning process that not only delivers a strong plan of action to achieve the organization’s goals, but also builds strength among the team during the process - resulting in more engaged board members, more empowered staff and clearer understanding among funders on the nonprofit’s trajectory.  
+
+<!-- Keep Mission/Vision statements -->
+
+
+</div>
+
+<div style="clear:both"></div>
+<br><br>
+
+
+<div class="lazy bgimg bgimg-notfixed" data-src="img/hero/group-yellow-chairs.jpg" style="top:auto; bottom:0px; opacity:.85; line-height: 0px">
+    <img src="img/hero/group-yellow-chairs.jpg" style="opacity:0; width:100%; bottom:0px;">
+</div>
+
+
+
+<div class="content contentpadding" style="padding-bottom:20px">
+	<div id="readmeDiv"></div>
+</div>
+
+<script>
+    loadMarkdown("README.md", "readmeDiv", "_parent");
+</script>
+
+<div class="lazy bgimg bgimg-notfixed" data-src="img/hero/postit-board.jpg" style="top:auto; bottom:0px; opacity:.85; line-height: 0px">
+        <img src="img/hero/postit-board.jpg" style="opacity:0; width:100%; bottom:0px;">
+    </div>
+
+<div id="footer"></div>
+
+</body>
+</html>
