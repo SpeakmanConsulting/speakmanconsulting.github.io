@@ -6,7 +6,7 @@
 Who we work with or how we help nonprofits? Impact Overview- Provide text that showcases influential clients & key accomplishments– Nicole  
 -->
 
-Speakman Management Consulting has worked with some the city’s most outstanding and recognized nonprofits to assist them with their import missions surrounding homelessness prevention, affordable housing, child welfare and family stability, poverty alleviation, arts and culture, advocacy, education, environmental preservation, community development and many other important causes.  
+Speakman Management Consulting has worked closely with some of the city’s top nonprofits on strategic planning to assist in the development of missions surrounding arts and culture, affordable housing, child welfare and family stability, homelessness prevention, poverty alleviation, advocacy, education, environmental preservation, community development and many other important causes.  
 
 i.	Atlanta Land Trust  
 ii.	Community Foundation for Greater Atlanta- Thomasville Heights Funder Project  
