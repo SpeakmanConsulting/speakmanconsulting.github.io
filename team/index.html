@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="../img/logo/speakman-icon.png" />
 
-<title>Speakman Consulting - Our Bios</title>
+<title>Speakman Consulting - Our team</title>
 <link type="text/css" rel="stylesheet" href="https://neighborhood.org/localsite/css/base.css" />
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/d3.v5.min.js"></script>
 <script type="text/javascript" src="https://neighborhood.org/localsite/js/jquery/jquery-1.12.4.min.js"></script>
@@ -54,6 +54,12 @@
 .biotext h2 {
   margin-top: 0px;
 }
+@media (max-width: 800px) {
+  .bioimage {
+      float: none;
+      margin-bottom: 0px;
+  }
+}
 @media print {
   .bioimage img {
       width: 140px !important;
@@ -84,7 +90,7 @@
 
 <div class="bios">
 
-<div class="bio">
+<div class="bio" style="margin-bottom:60px">
 <div class="bioimage">
 <img src="img/Erik-Speakman.jpg" style="opacity:0.8">
 </div>
@@ -93,7 +99,7 @@
 Our founder Erik Speakman has over 20 years experience facilitating planning, implementation and change initiatives. A certified mediator with an MBA in Finance and Strategic Planning from Georgia State University, Erik blends expertise in business basics with an ability to identify and troubleshoot potential conflicts and challenges to implementation. Erik brings a broad experience to designing and facilitating management training and organizational development programs. He has conducted leadership development, planning and partnership workshops at a number of conferences, including the Georgia Center for Non-Profits Summit and Georgia State University. Previously, Erik was a partner of Rechtman Consulting Group.
 </div>
 </div>
-<br><br>
+
 
 <div class="bio">
 <div class="bioimage">
@@ -166,7 +172,7 @@ $(document).ready(function () {
         $find.appendTo($el);
     });
   };
-  //$(".bios").shuffleChildren();
+  $(".bios").shuffleChildren();
 });
 </script>
 </body>

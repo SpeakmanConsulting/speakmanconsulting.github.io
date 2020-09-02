@@ -14,4 +14,4 @@ iii.	Salvation Army
 iv.	Families First  
 v.	Lifecycle Building Center  
 
-<a href="bios">Meet Our Team</a> | <a href="services">About Our Services</a>
+<a href="team">Meet Our Team</a> | <a href="services">About Our Services</a>
